@@ -17,6 +17,9 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('layouts.main', function($view){
             $view->with('categories', Category::all());
         });
+        view()->composer('partials.page_header', function($view){
+            $view->with('categories', Category::all());
+        });
     }
 
     /**

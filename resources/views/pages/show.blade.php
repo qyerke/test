@@ -68,7 +68,13 @@
 
 								<div class="product_price">${{$product->price}}</div>
 								<div class="button_container">
-									<button type="button" class="button cart_button">Add to Cart</button>
+									<form action="{{ route('cart.store') }}" method="POST">
+												{{ csrf_field() }}
+												<input type="hidden" name="id" value="{{ $product->id }}">
+												<input type="hidden" name="name" value="{{ $product->name }}">
+												<input type="hidden" name="price" value="{{ $product->price }}">
+												<button type="submit" class="button cart_button">Add to Cart</button>
+									</form>
 									<div class="product_fav"><i class="fas fa-heart"></i></div>
 								</div>
 								

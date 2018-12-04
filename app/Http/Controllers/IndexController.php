@@ -14,10 +14,10 @@ class IndexController extends Controller
     	$products = Product::all();
 
     	$fProducts = $products->where('featured', '1');
-        $featuredProducts = $fProducts->shuffle()->take(8);
+        $featuredProducts = $fProducts->shuffle()->take(10);
 
         $sProducts =  $products->where('on_sale', '1');
-        $saleProducts = $sProducts->shuffle()->take(8);
+        $saleProducts = $sProducts->shuffle()->take(10);
     	//$saleProducts = $products->where('on_sale', '1')->random()->max(16);
     	return view('pages.index', compact('categories', 'products', 'featuredProducts', 'saleProducts'));
     }

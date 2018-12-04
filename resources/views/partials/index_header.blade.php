@@ -133,7 +133,7 @@
 
 							<ul class="cat_menu">
 								@foreach($categories as $category)
-								<li><a href="#">{{$category->title}}<i class="fas fa-chevron-right"></i></a></li>
+								<li><a href="{{route('index.category', $category->slug)}}">{{$category->title}}<i class="fas fa-chevron-right"></i></a></li>
 								@endforeach
 
 <!-- 									<li><a href="#">Cameras & Photos<i class="fas fa-chevron-right"></i></a></li>

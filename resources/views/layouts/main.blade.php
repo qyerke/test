@@ -9,11 +9,14 @@
 <link rel="stylesheet" type="text/css" href="/frontend/styles/bootstrap4/bootstrap.min.css">
 <link href="/frontend/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="/frontend/styles/bootstrap4/bootstrap.min.css">
-<link href="/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css">
 <link rel="stylesheet" type="text/css" href="/frontend/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="/frontend/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="/frontend/plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="/frontend/plugins/slick-1.8.0/slick.css">
+<link rel="stylesheet" type="text/css" href="/frontend/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+
+
 @stack('styles')
 
 </head>
@@ -52,7 +55,7 @@
 							<!-- Recently Viewed Item -->
 							<div class="owl-item">
 								<div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-									<div class="viewed_image"><img src="frontend/images/view_1.jpg" alt=""></div>
+									<div class="viewed_image"><img src="/frontend/images/view_1.jpg" alt=""></div>
 									<div class="viewed_content text-center">
 										<div class="viewed_price">$225<span>$300</span></div>
 										<div class="viewed_name"><a href="#">Beoplay H7</a></div>
@@ -67,7 +70,7 @@
 							<!-- Recently Viewed Item -->
 							<div class="owl-item">
 								<div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-									<div class="viewed_image"><img src="frontend/images/view_2.jpg" alt=""></div>
+									<div class="viewed_image"><img src="/frontend/images/view_2.jpg" alt=""></div>
 									<div class="viewed_content text-center">
 										<div class="viewed_price">$379</div>
 										<div class="viewed_name"><a href="#">LUNA Smartphone</a></div>
@@ -82,7 +85,7 @@
 							<!-- Recently Viewed Item -->
 							<div class="owl-item">
 								<div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-									<div class="viewed_image"><img src="frontend/images/view_3.jpg" alt=""></div>
+									<div class="viewed_image"><img src="/frontend/images/view_3.jpg" alt=""></div>
 									<div class="viewed_content text-center">
 										<div class="viewed_price">$225</div>
 										<div class="viewed_name"><a href="#">Samsung J730F...</a></div>
@@ -97,7 +100,7 @@
 							<!-- Recently Viewed Item -->
 							<div class="owl-item">
 								<div class="viewed_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-									<div class="viewed_image"><img src="frontend/images/view_4.jpg" alt=""></div>
+									<div class="viewed_image"><img src="/frontend/images/view_4.jpg" alt=""></div>
 									<div class="viewed_content text-center">
 										<div class="viewed_price">$379</div>
 										<div class="viewed_name"><a href="#">Huawei MediaPad...</a></div>
@@ -112,7 +115,7 @@
 							<!-- Recently Viewed Item -->
 							<div class="owl-item">
 								<div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-									<div class="viewed_image"><img src="frontend/images/view_5.jpg" alt=""></div>
+									<div class="viewed_image"><img src="/frontend/images/view_5.jpg" alt=""></div>
 									<div class="viewed_content text-center">
 										<div class="viewed_price">$225<span>$300</span></div>
 										<div class="viewed_name"><a href="#">Sony PS4 Slim</a></div>
@@ -127,7 +130,7 @@
 							<!-- Recently Viewed Item -->
 							<div class="owl-item">
 								<div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-									<div class="viewed_image"><img src="frontend/images/view_6.jpg" alt=""></div>
+									<div class="viewed_image"><img src="/frontend/images/view_6.jpg" alt=""></div>
 									<div class="viewed_content text-center">
 										<div class="viewed_price">$375</div>
 										<div class="viewed_name"><a href="#">Speedlink...</a></div>
@@ -158,14 +161,14 @@
 
 						<div class="owl-carousel owl-theme brands_slider">
 							
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_1.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_2.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_3.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_4.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_5.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_6.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_7.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/brands_8.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_1.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_2.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_3.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_4.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_5.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_6.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_7.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="/frontend/images/brands_8.jpg" alt=""></div></div>
 
 						</div>
 						
@@ -187,7 +190,7 @@
 				<div class="col">
 					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
 						<div class="newsletter_title_container">
-							<div class="newsletter_icon"><img src="frontend/images/send.png" alt=""></div>
+							<div class="newsletter_icon"><img src="/frontend/images/send.png" alt=""></div>
 							<div class="newsletter_title">Sign up for Newsletter</div>
 							<div class="newsletter_text"><p>...and receive %20 coupon for first shopping.</p></div>
 						</div>
@@ -290,15 +293,15 @@
 					
 					<div class="copyright_container d-flex flex-sm-row flex-column align-items-center justify-content-start">
 						<div class="copyright_content"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script data-cfasync="false" src="//cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </div>
 						<div class="logos ml-sm-auto">
 							<ul class="logos_list">
-								<li><a href="#"><img src="frontend/images/logos_1.png" alt=""></a></li>
-								<li><a href="#"><img src="frontend/images/logos_2.png" alt=""></a></li>
-								<li><a href="#"><img src="frontend/images/logos_3.png" alt=""></a></li>
-								<li><a href="#"><img src="frontend/images/logos_4.png" alt=""></a></li>
+								<li><a href="#"><img src="/frontend/images/logos_1.png" alt=""></a></li>
+								<li><a href="#"><img src="/frontend/images/logos_2.png" alt=""></a></li>
+								<li><a href="#"><img src="/frontend/images/logos_3.png" alt=""></a></li>
+								<li><a href="#"><img src="/frontend/images/logos_4.png" alt=""></a></li>
 							</ul>
 						</div>
 					</div>
@@ -308,21 +311,26 @@ Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/clou
 	</div>
 </div>
 
-<script src="frontend/js/jquery-3.3.1.min.js"></script>
-<script src="frontend/styles/bootstrap4/popper.js"></script>
-<script src="frontend/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="frontend/plugins/greensock/TweenMax.min.js"></script>
-<script src="frontend/plugins/greensock/TimelineMax.min.js"></script>
-<script src="frontend/plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="frontend/plugins/greensock/animation.gsap.min.js"></script>
-<script src="frontend/plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="frontend/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="frontend/plugins/slick-1.8.0/slick.js"></script>
-<script src="frontend/plugins/easing/easing.js"></script>
-<script src="frontend/js/custom.js"></script>
+<script src="/frontend/js/jquery-3.3.1.min.js"></script>
+<script src="/frontend/styles/bootstrap4/popper.js"></script>
+<script src="/frontend/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/frontend/plugins/greensock/TweenMax.min.js"></script>
+<script src="/frontend/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/frontend/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/frontend/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/frontend/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/frontend/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="/frontend/plugins/slick-1.8.0/slick.js"></script>
+<script src="/frontend/plugins/easing/easing.js"></script>
+<script src="/frontend/plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="/frontend/plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="/frontend/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="/frontend/js/shop_custom.js"></script>
+<script src="/frontend/js/custom.js"></script>
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script async src="/https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
